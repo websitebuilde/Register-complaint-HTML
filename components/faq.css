@@ -1,0 +1,250 @@
+.faqfaq {
+  width: 100%;
+  display: flex;
+  padding: 120px;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 120px;
+  justify-content: center;
+  background-color: #EFF0F2;
+}
+.faq-heading {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  user-select: none;
+  flex-direction: column;
+}
+.faq-accordion {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  max-width: 1200px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.faq-header1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.faq-icon10 {
+  animation-name: none;
+  animation-delay: 0s;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+.faq-header2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.faq-header3 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.faq-header4 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.faq-header5 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.faq-header6 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.faq-container2 {
+  display: contents;
+}
+.faq-fragment10 {
+  display: contents;
+}
+.faq-text24 {
+  width: 100%;
+  display: inline-block;
+  font-size: 20px;
+  max-width: 760px;
+  font-style: normal;
+  font-weight: 500;
+  animation-name: none;
+  animation-delay: 0s;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+.faq-fragment11 {
+  display: contents;
+}
+.faq-text25 {
+  color: rgb(0, 0, 0);
+  width: 100%;
+  display: inline-block;
+  max-width: 600px;
+  text-align: center;
+  margin-bottom: var(--dl-space-space-fiveunits);
+}
+.faq-fragment12 {
+  display: contents;
+}
+.faq-text26 {
+  width: 100%;
+  display: inline-block;
+  max-width: 760px;
+  line-height: 24px;
+}
+.faq-fragment13 {
+  display: contents;
+}
+.faq-text27 {
+  width: 100%;
+  display: inline-block;
+  font-size: 20px;
+  max-width: 760px;
+  font-style: normal;
+  font-weight: 500;
+}
+.faq-fragment14 {
+  display: contents;
+}
+.faq-text28 {
+  width: 100%;
+  display: inline-block;
+  max-width: 760px;
+  line-height: 24px;
+}
+.faq-fragment15 {
+  display: contents;
+}
+.faq-text29 {
+  width: 100%;
+  display: inline-block;
+  max-width: 760px;
+  line-height: 24px;
+}
+.faq-fragment16 {
+  display: contents;
+}
+.faq-text30 {
+  width: 100%;
+  display: inline-block;
+  font-size: 20px;
+  max-width: 760px;
+  font-style: normal;
+  font-weight: 500;
+}
+.faq-fragment17 {
+  display: contents;
+}
+.faq-text31 {
+  width: 100%;
+  display: inline-block;
+  max-width: 760px;
+  line-height: 24px;
+  animation-name: tada;
+  animation-delay: 0s;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+.faq-fragment18 {
+  display: contents;
+}
+.faq-text32 {
+  width: 100%;
+  display: inline-block;
+  max-width: 760px;
+  line-height: 24px;
+}
+.faq-fragment19 {
+  display: contents;
+}
+.faq-text33 {
+  width: 100%;
+  display: inline-block;
+  font-size: 20px;
+  max-width: 760px;
+  font-style: normal;
+  font-weight: 500;
+}
+.faq-fragment20 {
+  display: contents;
+}
+.faq-text34 {
+  width: 100%;
+  display: inline-block;
+  max-width: 760px;
+  line-height: 24px;
+}
+.faq-fragment21 {
+  display: contents;
+}
+.faq-text35 {
+  width: 100%;
+  display: inline-block;
+  font-size: 20px;
+  max-width: 760px;
+  font-style: normal;
+  font-weight: 500;
+}
+.faq-fragment22 {
+  display: contents;
+}
+.faq-text36 {
+  width: 100%;
+  display: inline-block;
+  font-size: 20px;
+  max-width: 760px;
+  font-style: normal;
+  font-weight: 500;
+}
+.faq-fragment23 {
+  display: contents;
+}
+.faq-text37 {
+  display: inline-block;
+  text-align: center;
+}
+@media(max-width: 991px) {
+  .faq-accordion {
+    width: 100%;
+    max-width: 1200px;
+  }
+}
+@media(max-width: 767px) {
+  .faqfaq {
+    padding: var(--dl-space-space-fourunits);
+  }
+  .faq-heading {
+    width: 100%;
+  }
+  .faq-text10 {
+    font-size: 36px;
+    line-height: 36px;
+  }
+  .faq-text11 {
+    width: 100%;
+    max-width: 600p;
+    margin-bottom: var(--dl-space-space-threeunits);
+  }
+  .faq-text25 {
+    width: 100%;
+    max-width: 600p;
+    margin-bottom: var(--dl-space-space-threeunits);
+  }
+  .faq-text37 {
+    font-size: 36px;
+    line-height: 36px;
+  }
+}
